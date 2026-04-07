@@ -1,0 +1,67 @@
+# 🔐 Sensitive Files & Secrets
+.env
+.env.*
+.secrets
+.credentials
+*.pem
+*.key
+*.p12
+*.cert
+*.crt
+credentials.json
+client_secret.json
+
+# 🐍 Python Artifacts & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 📂 IDEs & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 📊 Logs & Diagnostics
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# 💾 Data & Models (Optional - keep what you need)
+# assets/models/  # Uncomment if you want to keep models local only
+*.wav
+*.mp3
+*.mp4
+debug_mic.wav
