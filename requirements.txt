@@ -1,0 +1,8 @@
+sounddevice
+numpy
+pyyaml
+datasets
+pandas
+tensorflow
+scipy
+faster-whisper

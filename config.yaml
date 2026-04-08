@@ -1,0 +1,17 @@
+# 🛠️ System Configuration
+audio:
+  sampling_rate: 16000
+  chunk_duration: 1.0    # Seconds per processing window
+  device_index: null     # Set to an integer if you have multiple mics
+
+whisper:
+  model_path: "assets/models/ggml-tiny.bin"
+  language: "en"
+  threads: 4
+
+toxicity:
+  threshold: 0.85        # Sensitivity: 0.0 (Chill) to 1.0 (Strict)
+  categories:
+    - "hate_speech"
+    - "harassment"
+    - "extreme_insult"
