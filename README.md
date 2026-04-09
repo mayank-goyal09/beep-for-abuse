@@ -16,3 +16,49 @@
 [![GitHub Forks](https://img.shields.io/github/forks/mayank-goyal09/beep-for-abuse?style=for-the-badge&color=87ceeb)](https://github.com/mayank-goyal09/beep-for-abuse/network)
 
 <br/>
+
+### 🧱 **Engineering a high-speed "Digital Bouncer" to intercept hate speech before it lands.** 
+
+### **From Raw Audio Stream → Instant Censor Beep** 🎧⚡
+
+</div>
+
+---
+
+## 🛡️ **THE INTERCEPTOR AT A GLANCE**
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎯 **What This Project Does**
+
+This system functions as a **Real-Time Toxic Audio Interceptor** for gaming and voice environments. It listens to live microphone input in 1-second windows, transcribes speech using a "bare-metal" optimized Whisper engine, and classifies toxicity using a custom **1D-CNN**.
+
+**The "Digital Bouncer" Pipeline:**
+- 🎤 **Audio Streamer** → captures rolling 1s buffers.
+- 🌊 **Normalization** → balances input for clear AI "hearing."
+- 🧠 **Faster-Whisper** → Audio-to-Text via Int8 quantization.
+- 🥊 **1D-CNN Classifier** → detects hate speech/harassment.
+- 🔇 **Audio Gate** → triggers a "Censor Beep" instantly.
+
+</td>
+<td width="50%">
+
+### ✨ **Key Highlights**
+
+| Feature | Details |
+|---------|---------|
+| ⏱️ **Latency** | Near real-time (<2s end-to-end) |
+| 🛡️ **Model Type** | 1D-CNN Text Classifier |
+| 🎤 **STT Engine** | Faster-Whisper (CTranslate2) |
+| 🎚️ **Sensitivity** | Dynamic thresholds in `config.yaml` |
+| 🔇 **Action** | Instant Censor Beep / Clean Passthrough |
+| ⚡ **Optimization** | Int8 Quantization & Silence Skipping |
+| 🎨 **Feedback** | Terminal-based live logging & audio cues |
+
+</td>
+</tr>
+</table>
+
+---
