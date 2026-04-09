@@ -62,3 +62,77 @@ This system functions as a **Real-Time Toxic Audio Interceptor** for gaming and 
 </table>
 
 ---
+
+## 🛠️ **TECHNOLOGY STACK**
+
+<div align="center">
+
+![Tech Stack](https://skillicons.dev/icons?i=python,tensorflow,scikit-learn,github,vscode)
+
+</div>
+
+| **Category** | **Technologies** | **Purpose** |
+|:------------:|:-----------------|:------------|
+| 🐍 **Core Language** | Python 3.8+ | System orchestration & logic |
+| 🧠 **Speech-to-Text** | Faster-Whisper | Optimized STT (CTranslate2) |
+| 🥊 **Classification** | TensorFlow / Keras | 1D-CNN Hate Speech detection |
+| 🎧 **Audio IO** | Sounddevice / Scipy | Mic input capture & output routing |
+| 📊 **Numerical Ops** | NumPy / Pandas | Signal processing & data handling |
+| ⚙️ **Config** | PyYAML | External system tuning |
+
+---
+
+## 🔬 **THE MULTI-STAGE BRAIN ARCHITECTURE**
+
+```mermaid
+graph TD
+    A[🎤 Rolling Audio Buffer] --> B[🌊 Normalization + RMS]
+    B -->|Silence Detect| C{Energy > Threshold?}
+    C -->|No| A
+    C -->|Yes| D[🧠 Faster-Whisper STT]
+    D --> E[📝 Tokenized Text]
+    E --> F[🧠 1D-CNN Classifier]
+    F --> G{Toxicity > 0.85?}
+    G -->|Yes| H[🔇 TRIGGER CENSOR BEEP]
+    G -->|No| I[🟢 PLAY CLEAN AUDIO]
+    
+    style A fill:#4facfe,color:#fff
+    style D fill:#f093fb,color:#fff
+    style H fill:#ff4b4b,color:#fff
+    style I fill:#00f2fe,color:#000
+```
+
+### **System Breakdown:**
+
+<table>
+<tr>
+<td>
+
+#### 🏃 **1. Bare-Metal Performance**
+Optimized for concurrent 3D gaming environments. Uses **Int8 Quantization** and **CTranslate2** to shift the heavy lifting from the CPU to the bare-metal, ensuring minimal impact on game FPS.
+
+</td>
+<td>
+
+#### 🎯 **2. 1D-CNN Precision**
+Unlike simple keyword filters, our **1D-CNN Classifier** understands context. It uses a custom-trained embedding layer to identify complex hate speech patterns that standard filters miss.
+
+</td>
+</tr>
+<tr>
+<td>
+
+#### 🌊 **3. Signal Normalization**
+Raw mic inputs are often erratic. The **Audio Streamer** normalizes amplitude and calculates RMS energy to skip silence, ensuring the AI only works on clear, audible speech.
+
+</td>
+<td>
+
+#### 🔇 **4. The Audio Gate**
+The **AudioGate Controller** manages the final output. If toxicity is detected, it intercepts the voice packet and injects a standard censor tone, shielding listeners from abuse.
+
+</td>
+</tr>
+</table>
+
+---
