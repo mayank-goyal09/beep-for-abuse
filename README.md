@@ -11,3 +11,8 @@
 ![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
 
 <br/>
+
+[![GitHub Stars](https://img.shields.io/github/stars/mayank-goyal09/beep-for-abuse?style=for-the-badge&color=ffd700)](https://github.com/mayank-goyal09/beep-for-abuse/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/mayank-goyal09/beep-for-abuse?style=for-the-badge&color=87ceeb)](https://github.com/mayank-goyal09/beep-for-abuse/network)
+
+<br/>
