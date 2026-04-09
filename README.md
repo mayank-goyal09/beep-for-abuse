@@ -161,3 +161,60 @@ The **AudioGate Controller** manages the final output. If toxicity is detected, 
 ```
 
 ---
+
+
+## 🚀 **QUICK START GUIDE**
+
+### **Step 1: Clone the Repository** 📥
+
+```bash
+git clone https://github.com/mayank-goyal09/beep-for-abuse.git
+cd beep-for-abuse
+```
+
+### **Step 2: Install Optimized Dependencies** 📦
+
+```bash
+pip install -r requirements.txt
+```
+
+### **Step 3: Setup Models** 🧠
+Ensure your trained model files (`toxic_cnn.h5` & `tokenizer.pickle`) are placed in `assets/models/`.
+
+### **Step 4: Launch the Bouncer** 🛡️
+
+```bash
+python main.py
+```
+
+> 🎉 **Status: Online!** Start speaking into your mic. Toxic phrases will trigger the audio gate, while clean speech will pass through.
+
+---
+
+## 🔮 **FUTURE ENHANCEMENTS**
+
+- [ ] 🎧 **Virtual Audio Cable Integration**: Direct routing into Discord/In-game chat.
+- [ ] 🗣️ **Multilingual Support**: Real-time translation for global toxicity detection.
+- [ ] 📊 **Dashboard View**: Streamlit UI to monitor toxicity trends.
+- [ ] 💨 **Transformer Upgrade**: Swapping CNN for an Attention-based model.
+- [ ] ⚙️ **GUI Control**: Desktop app for toggling sensitivity on the fly.
+
+---
+
+## 👨‍💻 **CONNECT WITH ME**
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-mayank--goyal09-181717?style=for-the-badge&logo=github)](https://github.com/mayank-goyal09)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mayank_Goyal-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mayank-goyal-4b8756363/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-4facfe?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mayank-portfolio-delta.vercel.app/)
+
+**Mayank Goyal**  
+🧠 Deep Learning Enthusiast | 🎙️ Audio AI Engineer | 🐍 Python Developer  
+
+---
+
+### 🛡️ **Built with ❤️ by Mayank Goyal**
+*"Intercepting abuse at the speed of sound."* ⚡🥊
+
+</div>
