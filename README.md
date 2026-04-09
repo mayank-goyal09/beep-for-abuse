@@ -136,3 +136,28 @@ The **AudioGate Controller** manages the final output. If toxicity is detected, 
 </table>
 
 ---
+
+## 📂 **PROJECT STRUCTURE**
+
+```
+🎙️ beep-for-abuse/
+│
+├── 🚀 main.py                  # Entry point: The Digital Bouncer engine
+├── ⚙️ config.yaml               # System sensitivity & paths
+├── 📦 requirements.txt         # Core dependencies
+│
+├── 🧠 src/                      # The Modular Brain
+│   ├── audio_buffer.py         # Capture & Normalization
+│   ├── translator.py           # Faster-Whisper implementation
+│   ├── classifier.py           # 1D-CNN Inference logic
+│   └── gate_controller.py      # Audio Interceptor & Beeper
+│
+├── 🗂️ assets/                   # Heavyweight Assets
+│   └── models/
+│       ├── toxic_cnn.h5        # Trained Keras Model
+│       └── tokenizer.pickle    # NLP Preprocessing
+│
+└── 📖 README.md                # You are here! 🎉
+```
+
+---
