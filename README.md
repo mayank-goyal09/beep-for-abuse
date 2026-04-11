@@ -19,7 +19,7 @@
 
 ### 🧱 **Engineering a high-speed "Digital Bouncer" to intercept hate speech before it lands.** 
 
-### **From Raw Audio Stream → Instant Censor Beep** 🎧⚡
+### 🎧⚡ **From Raw Audio Stream → Instant Censor Beep** 🎧⚡
 
 </div>
 
