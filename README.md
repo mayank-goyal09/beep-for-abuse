@@ -19,7 +19,7 @@
 
 ### 🧱 **Engineering a high-speed "Digital Bouncer" to intercept hate speech before it lands.** 
 
-### **From Raw Audio Stream → Instant Censor Beep** 🎧⚡
+### 🎧⚡ **From Raw Audio Stream → Instant Censor Beep** 🎧⚡
 
 </div>
 
@@ -161,6 +161,7 @@ The **AudioGate Controller** manages the final output. If toxicity is detected, 
 ```
 
 ---
+
 
 ## 🚀 **QUICK START GUIDE**
 
